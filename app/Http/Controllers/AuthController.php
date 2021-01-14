@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+
+class AuthController extends Controller {
+
+    public function me() {
+        return [
+            "nis" => 3103118068,
+            "name" => "Galih Putra A",
+            "gender" => "Laki-laki",
+            "phone" => 6289665871807,
+            "class" => "XII RPL 2"
+        ];
+    }
+}
